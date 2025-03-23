@@ -1,0 +1,46 @@
+body{
+    font-family: manrope;
+}
+
+.left-side img{
+    width: 20px;
+    transform: translateX(-1100%);
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 230px;
+    height: 38px;
+    border-radius: 15px;
+    border: 1px solid rgb(211, 212, 213);
+    outline: none;
+}
+
+::placeholder{
+position: absolute;
+left: 40px;
+font-family: manrope;
+}
+
+.left-side a{
+    text-decoration: none;
+    color: rgba(0, 132, 255, 0.77);
+    width: fit-content;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(211, 212, 213);
+    width: 250px;
+    gap: 20px;
+    margin-left: 5%;
+}
+.left-side h1{
+    width: 200px;
+}
+
+.right-side{
+    margin-left: 25%;
+    margin-top: -17.5%;
+}
